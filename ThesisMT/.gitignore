@@ -1,0 +1,73 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# DATASETS (DO NOT UPLOAD)
+# =========================
+Datasets/
+**/Datasets/
+
+# =========================
+# MODEL WEIGHTS & CHECKPOINTS
+# =========================
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+*.h5
+*.joblib
+*.pkl
+
+# =========================
+# TRAINING / EXPERIMENT OUTPUTS
+# =========================
+**/runs/
+**/checkpoints/
+**/outputs/
+**/results/
+**/logs/
+
+# =========================
+# Hugging Face / Torch cache
+# =========================
+.cache/
+huggingface/
+hf_cache/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
