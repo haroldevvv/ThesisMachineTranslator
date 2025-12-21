@@ -43,10 +43,10 @@ ThesisMachineTranslator/
 ├── Prototype_MT/              # Prototype and exploratory models
 ├── Datasets/                  # (Excluded from repository)
 └── .gitignore
-
+```
 ---
 
-## Datasets
+## Datasets 
 
 Due to size limitations and data usage considerations, datasets are **not publicly included** in this repository.
 
