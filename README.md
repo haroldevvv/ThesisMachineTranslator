@@ -49,7 +49,7 @@ ThesisMachineTranslator/
 ├── Prototype_MT/              # Prototype and exploratory models
 ├── Datasets/                  # (Excluded from repository)
 └── .gitignore
-
+```text
 
 > **Note:** Large files such as datasets, trained model weights, checkpoints, and experiment outputs are intentionally excluded from this repository.
 
