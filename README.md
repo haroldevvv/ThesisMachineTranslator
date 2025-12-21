@@ -39,13 +39,15 @@ The project emphasizes modular implementation, controlled experimentation, and r
 ---
 
 ## Repository Structure
+
+```text
 ThesisMachineTranslator/
-├── directMT/ # Direct Rinconada-to-English MT implementation
-├── direct_augmented_MT/ # Direct MT with synthetic data augmentation
-├── pivotMT/ # Pivot-based MT approach
-├── pivot_augmented_MT/ # Pivot MT with synthetic data augmentation
-├── Prototype_MT/ # Prototype and exploratory models
-├── Datasets/ # (Excluded from repository)
+├── directMT/                  # Direct Rinconada-to-English MT implementation
+├── direct_augmented_MT/        # Direct MT with synthetic data augmentation
+├── pivotMT/                   # Pivot-based MT approach
+├── pivot_augmented_MT/         # Pivot MT with synthetic data augmentation
+├── Prototype_MT/              # Prototype and exploratory models
+├── Datasets/                  # (Excluded from repository)
 └── .gitignore
 
 
@@ -78,8 +80,3 @@ This research was conducted as part of an undergraduate thesis at **Camarines Su
 
 This project is intended for **academic and research use only**.  
 Commercial use requires explicit permission from the authors.
-
-
-
-## Repository Structure
-
