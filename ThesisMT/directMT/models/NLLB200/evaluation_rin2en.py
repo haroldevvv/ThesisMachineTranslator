@@ -69,10 +69,7 @@ def compute_metrics(eval_pred, tokenizer_local):
     return {
         "bleu": bleu_result["score"],
         "meteor": meteor_result.get("meteor", 0.0),
-        "rouge1": rouge_result.get("rouge1", 0.0),
-        "rouge2": rouge_result.get("rouge2", 0.0),
         "rougeL": rouge_result.get("rougeL", 0.0),
-        "rougeLsum": rouge_result.get("rougeLsum", 0.0),
     }
 
 def evaluate_model(model_dir, eval_dataset, model_name="", src_lang="rin_Latn", tgt_lang="eng_Latn", use_cpu=False):
