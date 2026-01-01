@@ -47,10 +47,7 @@ def evaluate_model(model_dir, tokenizer_dir, eval_dataset, model_name=""):
         return {
             "bleu": bleu_result["score"],
             "meteor": meteor_result["meteor"],
-            "rouge1": rouge_result["rouge1"],
-            "rouge2": rouge_result["rouge2"],
             "rougeL": rouge_result["rougeL"],
-            "rougeLsum": rouge_result["rougeLsum"],
         }
 
     trainer = Seq2SeqTrainer(
