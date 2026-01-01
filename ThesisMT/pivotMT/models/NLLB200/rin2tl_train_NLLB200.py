@@ -93,10 +93,8 @@ def compute_metrics(eval_pred):
     return {
         "bleu": bleu_result["score"],
         "meteor": meteor_result["meteor"],
-        "rouge1": rouge_result["rouge1"],
-        "rouge2": rouge_result["rouge2"],
         "rougeL": rouge_result["rougeL"],
-        "rougeLsum": rouge_result["rougeLsum"],
+
     }
 
 custom_data_collator = DataCollatorForSeq2Seq(
